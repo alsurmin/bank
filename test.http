@@ -1,0 +1,7 @@
+GET http://localhost:8080/account/1
+
+###
+GET http://localhost:8080/account/1/transactions
+
+###
+POST http://localhost:8080/account?sender=1&receiver=2&amount=1500
